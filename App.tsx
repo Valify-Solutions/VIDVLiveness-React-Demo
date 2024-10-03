@@ -42,7 +42,7 @@ const getToken = async () => {
     }
   } catch (error) {
     console.error(error);
-    Alert.alert('Error', 'Could not generate token');
+    Alert.alert('Error', 'Could not  generate token');
     return null;
   }
 };
